@@ -11026,13 +11026,46 @@ textarea.form-control-lg {
 .portfolio-box {
   position: relative;
   width: 100%;
-  height: 18.5rem;
+  max-height: 18.5rem;
   overflow: hidden;
   margin-bottom: 1.2rem;
+  border-top: 0.5rem solid #bb6ef5;
 }
 .portfolio-box img {
   width: 100%;
+}
+.portfolio-box .portfolio-info {
+  background-color: rgba(153, 38, 240, 0.75);
+  width: 100%;
   height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+.portfolio-box .portfolio-info .caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+.portfolio-box .portfolio-info .caption h4 {
+  text-transform: uppercase;
+  display: block;
+}
+.portfolio-box:hover img {
+  transition-duration: 700ms;
+  transition-property: all;
+  transform: scale(1.5);
+}
+.portfolio-box:hover .portfolio-info {
+  opacity: 1;
+  visibility: visible;
+  transition-duration: 700ms;
+  transition-property: all;
 }
 
 /*# sourceMappingURL=style.css.map */
