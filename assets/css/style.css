@@ -11153,4 +11153,17 @@ textarea.form-control-lg {
   }
 }
 
+.fooetr-sm a {
+  color: #fff;
+}
+.fooetr-sm a i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+@media (min-width: 576px) {
+  .fooetr-sm a i {
+    font-size: 1.6rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
