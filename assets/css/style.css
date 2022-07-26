@@ -11166,4 +11166,21 @@ textarea.form-control-lg {
   }
 }
 
+.campany-list {
+  display: block;
+  list-style-type: none;
+  position: relative;
+}
+.campany-list li {
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+.campany-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+.campany-list li a:hover {
+  color: #9926f0;
+}
+
 /*# sourceMappingURL=style.css.map */
